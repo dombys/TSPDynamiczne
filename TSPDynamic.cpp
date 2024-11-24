@@ -223,7 +223,7 @@ int main()
         case 4: //do one test
         {
             int s = 0;
-            Result = tsp(DistanceMatrix, 3, s);
+            Result = tsp(DistanceMatrix, Cities, s);
             cout << Result << endl;
             Options = 0;
             break;
